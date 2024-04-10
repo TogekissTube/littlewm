@@ -1,4 +1,4 @@
 all: build
 
 build:
-	gcc src/main.c -o main -Wall -Wextra -std=c17 -lX11
+	gcc src/main.c -o littlewm -Wall -Wextra -std=c17 -lX11
